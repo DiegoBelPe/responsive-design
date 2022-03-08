@@ -1,3 +1,10 @@
+:root {
+    --first-color: #333333;
+    --first-alpha-color: rgba(0, 87, 217, 0.75);
+    --second-color: #14192D;
+
+  }
+
 body {
     font-family: 'inconsolata', sans-serif;
     margin: 0;
@@ -25,7 +32,7 @@ body {
     margin: 15px;
     margin-left: 30px;
 
-    color: #333333;
+    color: var(--first-color);
 
 }
 
@@ -56,7 +63,7 @@ body {
 
 /* Gray 1 */
 
-color: #333333;
+color: var(--first-color);
 
 }
 
@@ -155,7 +162,7 @@ color: #333333;
 
         /* Gray 1 */
 
-        color: #333333;
+        color: var(--first-color);
     
     }
 
@@ -186,7 +193,7 @@ color: #333333;
     
         /* Gray 1 */
     
-        background: #333333;
+        background: var(--first-color);
     
     }
     .copy{
